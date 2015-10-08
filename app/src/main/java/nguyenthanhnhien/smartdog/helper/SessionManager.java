@@ -11,7 +11,11 @@ import android.util.Log;
 
 public class SessionManager {
     // Shared preferences file name
+<<<<<<< HEAD
     private static final String PREF_NAME = "SmartDogLogin";
+=======
+    private static final String PREF_NAME = "SamrtDogLogin";
+>>>>>>> origin/master
     private static final String KEY_IS_LOGGEDIN = "isLoggedIn";
     // LogCat tag
     private static String TAG = SessionManager.class.getSimpleName();
