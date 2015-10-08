@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nguyenthanhnhien.smartdog"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="nguyenthanhnhien.smartdog.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/smartdog_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--  Entry for RegisterActivity.class -->
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="Register New Account" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="Welcome To Smart Dog !" />
+    </application>
+
+</manifest>
